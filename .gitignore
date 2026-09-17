@@ -1,0 +1,11 @@
+# Build output
+out/
+target/
+build/
+*.class
+
+# IDE & OS files
+.idea/
+*.iml
+.DS_Store
+*.log
