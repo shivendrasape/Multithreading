@@ -32,6 +32,13 @@ java -cp out com.practice.multithreading.synchronization.BrokenTicketCounterAtom
 
 # 4. Real-World Parallel Task Coordination
 java -cp out com.practice.multithreading.realworld.FoodOrderProcessorDemo
+
+# 5. Executors Framework & Thread Pools
+java -cp out com.practice.multithreading.executor.BasicThreadPoolDemo
+java -cp out com.practice.multithreading.executor.ThreadPoolTypesDemo
+java -cp out com.practice.multithreading.executor.FoodOrderProcessorExecutorDemo
+java -cp out com.practice.multithreading.executor.ThreadPoolRaceConditionDemo
+java -cp out com.practice.multithreading.executor.ThreadPoolDeadlockDemo
 ```
 
 ---
@@ -47,4 +54,6 @@ All in-depth concept explanations and standalone code snippets are available in 
 5. [Race Condition & Thread Synchronization](docs/Race%20Condition.md)
 6. [Deadlock Analysis & Prevention](docs/Deadlock%20Prevention.md)
 7. [Parallel Task Coordination](docs/Parallel%20Task%20Coordination.md)
-8. [Concurrency Architecture & Roadmap](docs/Concurrency%20Architecture%20&%20Roadmap.md)
+8. [Executors Framework & Thread Pools](docs/Executors%20Framework%20&%20Thread%20Pools.md)
+9. [Concurrency Architecture & Roadmap](docs/Concurrency%20Architecture%20&%20Roadmap.md)
+
